@@ -1,3 +1,36 @@
-# InventoryPro – Enterprise Inventory Management Solution
+# E-Commerce Inventory Management System
 
-A full-stack inventory management application developed using Spring Boot, React.js, and MySQL. The application enables efficient product management, inventory tracking, and stock monitoring through RESTful APIs and a responsive user interface.
+A Spring Boot REST API for managing product inventories in a retail environment.
+
+## Tech Stack
+
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Maven
+- Thunder Client / Postman
+
+## Features
+
+- Add Product
+- Get All Products
+- Get Product By ID
+- Update Product
+- Delete Product
+
+## API Endpoints
+
+### Add Product
+
+POST /api/products
+
+```json
+{
+  "productName": "Laptop",
+  "category": "Electronics",
+  "price": 65000,
+  "quantity": 10,
+  "supplier": "HP"
+}
+
